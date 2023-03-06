@@ -1,6 +1,7 @@
 #React - Sprint 6
 
-- Exercice 1 - first line of 'Escena' componentgit
+- Exercice 1 - first line of 'Escena' component
+- Exercice 2 - text data passed to 'Escena' with props
 
 # Getting Started with Create React App
 
