@@ -1,10 +1,10 @@
-
+import { DivFrase } from "./Escena.styled";
 
 export default function Escena(props) {
 
     return (
-        <div>
+        <DivFrase>
             {props.frase}
-        </div>
+        </DivFrase>
     )
 }
