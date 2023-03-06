@@ -1,3 +1,7 @@
+#React - Sprint 6
+
+- Exercice 1 - first line of 'Escena' componentgit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
