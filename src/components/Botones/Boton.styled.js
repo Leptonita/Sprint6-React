@@ -4,13 +4,14 @@ export const Btn = styled.button`
 width: 47%;
 height: 50px;
 font-size: 1.2rem;
+font-weight: bold;
 border: 2px solid gray;
 background-color: #eee;
-margin:5px;
+margin: 10px;
 cursor: pointer;
 
 &:hover {
-    background-color: #ddd;
+    background-color: #e1cbde;
     color: magenta;
 }
 `;

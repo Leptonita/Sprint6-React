@@ -2,6 +2,9 @@
 
 - Exercice 1 - first line of 'Escena' component
 - Exercice 2 - text data passed to 'Escena' with props
+- Exercice 3 - layout of components using styled-components
+- Exercice 4 - highlighting each line of text according to 'next' or 'previous' button
+
 
 # Getting Started with Create React App
 
