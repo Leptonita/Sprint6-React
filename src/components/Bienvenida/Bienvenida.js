@@ -7,7 +7,7 @@ export default function Bienvenida({ handleClick }) {
         <DivWelcome>
             <Message>Benvinguts a aquesta aplicació interactiva on et mostrarem una història d'herois, naus espacials, ... </Message>
             <Message>Per començar l'aventura prem el botó</Message>
-            <Bt onClick={() => handleClick()}>COMENÇAR</Bt>
+            <Btn onClick={() => handleClick()}>COMENÇAR</Btn>
         </DivWelcome >
     )
 }
