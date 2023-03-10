@@ -1,3 +1,12 @@
+#React - Sprint 6
+
+- Exercice 1 - first line of 'Escena' component
+- Exercice 2 - text data passed to 'Escena' with props
+- Exercice 3 - layout of components using styled-components
+- Exercice 4 - highlighting each line of text according to 'next' or 'previous' button
+- Exercice 5 - conditional render (Welcome screen / Story screen)
+- Exercice 6 - dynamic background
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

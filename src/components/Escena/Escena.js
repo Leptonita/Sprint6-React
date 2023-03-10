@@ -1,8 +1,25 @@
-export default function Escena() {
+import { DivFrase } from "./Escena.styled";
+
+export default function Escena(props) {
+
+    const dadesTextos = props.data;
+    console.log(props.numLineaActual)
+
+    const frases = dadesTextos.map((frase, index) => {
+
+        const isSelected = ((props.numLineaActual === index));
+
+        const lineaFrase = <DivFrase key={index} highlight={isSelected} > {frase.txt} </DivFrase>
+
+        return lineaFrase;
+
+    });
+
+
 
     return (
-        <div>
-            El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial
-        </div>
+        <>
+            {frases}
+        </>
     )
 }
