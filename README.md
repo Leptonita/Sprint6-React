@@ -5,6 +5,7 @@
 - Exercice 3 - layout of components using styled-components
 - Exercice 4 - highlighting each line of text according to 'next' or 'previous' button
 - Exercice 5 - conditional render (Welcome screen / Story screen)
+- Exercice 6 - dynamic background
 
 # Getting Started with Create React App
 
