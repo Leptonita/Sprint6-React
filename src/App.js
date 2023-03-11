@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       {isShown && <Bienvenida handleClick={empezarAlClicar} />}
-      {isShown || <DivFondoEscenas imagen={bgImagen()}>
+      {!isShown && <DivFondoEscenas imagen={bgImagen()}>
         <Botones selectPrevious={selectPrevious} selectNext={selectNext} />
         <Escena data={dadesHistoria} numLineaActual={numFrase} />
       </DivFondoEscenas>
