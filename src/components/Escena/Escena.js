@@ -9,7 +9,7 @@ export default function Escena(props) {
 
         const isSelected = ((props.numLineaActual === index));
 
-        const lineaFrase = <DivFrase key={index} highlight={isSelected} > {frase.txt} </DivFrase>
+        const lineaFrase = <DivFrase key={frase.id} highlight={isSelected} > {frase.txt} </DivFrase>
 
         return lineaFrase;
 
